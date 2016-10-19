@@ -14,10 +14,20 @@
         android:paddingTop="16dp"
         tools:context="app.com.example.android.justjava.MainActivity">
 
+        <EditText
+            android:id="@+id/InputName_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:textSize="16sp" />
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
             android:text="toppings"
             android:textAllCaps="true"
             android:textColor="@android:color/darker_gray"
