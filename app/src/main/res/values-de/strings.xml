@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">JustJava</string>
+
+    <!-- Hint text display in the CheckBox for Chocolate [CHAR LIMIT=20] -->
+    <string name="chocolate">Schokolade</string>
+
+    <!-- Hint text display in the CheckBox for Whipped Cream [CHAR LIMIT=20] -->
+    <string name="whipped_cream">Sahne</string>
+
+    <!-- Hint text display in the TextView for quantity [CHAR LIMIT=20] -->
+    <string name="quantity">Anzahl</string>
+
+    <!-- Hint text display in the TextView for Order Summary [CHAR LIMIT=20] -->
+    <string name="order_summary">Summe</string>
+
+    <!-- Hint text display in the submitOrder-Button [CHAR LIMIT=20] -->
+    <string name="order">Kaufen</string>
+
+    <!-- Hint text for the subject in email. [CHAR LIMIT=50] -->
+    <string name="email_subject">Just Java Bestellung für </string>
+
+    <!-- Name for the order summary. It will be shown in the format of "Name: Amy"
+         where Amy is the user's name. [CHAR LIMIT=NONE]
+      -->
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <!-- Hint text for the order summary. [CHAR LIMIT=20] -->
+    <string name="order_summary_thank_you">Vielen Dank!</string>
+
+    <!-- Hint text for the order summary. [CHAR LIMIT=20] -->
+    <string name="order_summary_whipped_cream">mit Sahne?</string>
+
+    <!-- Hint text for the order summary. [CHAR LIMIT=20] -->
+    <string name="order_summary_chocolate">mit Schokolade?</string>
+
+    <!-- Hint text for the order summary. [CHAR LIMIT=20] -->
+    <string name="order_summary_quantity">Anzahl</string>
+
+    <!-- Hint text for the order summary. [CHAR LIMIT=20] -->
+    <string name="order_summary_total">Summe: €</string>
+
+</resources>
